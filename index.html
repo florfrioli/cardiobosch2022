@@ -125,7 +125,7 @@
                                     <div class="icon-box mt-4 mt-xl-0">
                                         <i class="bx bx-cube-alt"></i>
                                         <h4>Servicios</h4>
-                                        <p>Consultas presenciales, virtuales y con turno previo. <br> Estudios cardiológicos. <br> Atención de varias especialidades.
+                                        <p>Consultas presenciale y virtuales. <br> Estudios cardiológicos. <br> Con turno previo.
                                         </p>
                                     </div>
                                 </div>
@@ -250,32 +250,32 @@
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
                         <div class="icon-box">
                             <div class="icon"><i class="fas fa-pills"></i></div>
-                            <h4><a href="">Atención psicológica</a></h4>
+                            <h4><a href="">Psicología y Psiquiatría</a></h4>
                             <p>Contamos con un amplio equipo de profesionales para todas las edades.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
                         <div class="icon-box">
-                            <div class="icon"><i class="fas fa-notes-medical"></i></div>
-                            <h4><a href="">Atención virtual y presencial</a></h4>
-                            <p>Podés solicitar tu turno para atenderte de manera presencial en nuestros consultorios o acordar una consulta virtual.</p>
+                            <div class="icon"><i class="fas fa-wheelchair"></i></div>
+                            <h4><a href="">Rehabilitación Cardiovascular</a></h4>
+                            <p>Actividad destinada a la recuperación de personas ..</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                         <div class="icon-box">
                             <div class="icon"><i class="fas fa-dna"></i></div>
-                            <h4><a href="">Plan integral de descenso de peso</a></h4>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                            <h4><a href="">Atención personalizada</a></h4>
+                            <p>Contamos con un amplio equipo de colaboradores dispuestos a evacuar dudas y brindar atención en el menor tiempo posible.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                         <div class="icon-box">
-                            <div class="icon"><i class="fas fa-wheelchair"></i></div>
-                            <h4><a href="">Rehabilitación Cardiovascular</a></h4>
-                            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+                            <div class="icon"><i class="fas fa-notes-medical"></i></div>
+                            <h4><a href="">Atención virtual y presencial</a></h4>
+                            <p>Podés solicitar tu turno para atenderte de manera presencial en nuestros consultorios o acordar una consulta virtual.</p>
                         </div>
                     </div>
 
@@ -294,7 +294,7 @@
         <!-- End Services Section -->
 
         <!-- ======= Appointment Section ======= -->
-        <section id="appointment" class="appointment section-bg">
+        <!--  <section id="appointment" class="appointment section-bg">
             <div class="container">
 
                 <div class="section-title">
@@ -305,57 +305,77 @@
                 <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
                     <div class="row">
                         <div class="col-md-4 form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                             <div class="validate"></div>
                         </div>
                         <div class="col-md-4 form-group mt-3 mt-md-0">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email">
                             <div class="validate"></div>
                         </div>
                         <div class="col-md-4 form-group mt-3 mt-md-0">
-                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Celular" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                             <div class="validate"></div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-4 form-group mt-3">
-                            <input type="datetime" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                            <div class="validate"></div>
-                        </div>
-                        <div class="col-md-4 form-group mt-3">
                             <select name="department" id="department" class="form-select">
-                <option value="">Select Department</option>
-                <option value="Department 1">Department 1</option>
-                <option value="Department 2">Department 2</option>
-                <option value="Department 3">Department 3</option>
+                <option value="">Especialidad</option>
+                <option value="Cardiología">Cardiología</option> 
+                <option value="Clínica Médica">Clínica Médica</option>
+                <option value="Diabetología">Diabetología</option>
+                <option value="Endocrinología">Endocrinología</option>
+                <option value="Estudios">Estudios</option>
+                <option value="Gastronterología">Gastronterología</option>
+                <option value="Ginecología">Ginecología</option>
+                <option value="Nutrición">Nutrición</option>
+                <option value="Psicología">Psicología</option>
+                <option value="Psiquiatría">Psiquiatría</option>
+                <option value="Rehabilitación Cardiovascular">Rehabilitación Cardiovascular</option>
+                <option value="Traumatología">Traumatología</option>
               </select>
                             <div class="validate"></div>
                         </div>
                         <div class="col-md-4 form-group mt-3">
-                            <select name="doctor" id="doctor" class="form-select">
-                <option value="">Select Doctor</option>
-                <option value="Doctor 1">Doctor 1</option>
-                <option value="Doctor 2">Doctor 2</option>
-                <option value="Doctor 3">Doctor 3</option>
+                            <select name="obrasocial" id="obrasocial" class="form-select">
+                <option value="">Cobertura Médica</option>
+                <option value="IOMA">IOMA</option>
+                <option value="PAMI">PAMI</option>
+                <option value="OSDE">OSDE</option>
+                <option value="ASI">ASI</option>
+                <option value="PARTICULAR">PARTICULAR</option>
+                <option value="OTRA">OTRA</option>
+              </select>
+                            <div class="validate"></div>
+                        </div>
+                        <div class="col-md-4 form-group mt-3">
+                            <select name="donde" id="donde" class="form-select">
+                <option value="">¿Cómo nos encontraste?</option>
+                <option value="Soy paciente del consultorio">Soy paciente del consultorio</option>
+                <option value="Me recomendaron el lugar">Me recomendaron el lugar</option>
+                <option value="Me recomendaron al Doctor/Doctora">Me recomendaron al Doctor/Doctora</option>
+                <option value="Búsqueda en internet">Búsqueda en internet</option>
+                <option value="Por Redes sociales">Por Redes sociales</option>
+                <option value="Mediante mi obra social">Mediante mi obra social</option>
               </select>
                             <div class="validate"></div>
                         </div>
                     </div>
 
                     <div class="form-group mt-3">
-                        <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
+                        <textarea class="form-control" name="message" rows="5" placeholder="Su consulta"></textarea>
                         <div class="validate"></div>
                     </div>
                     <div class="mb-3">
-                        <div class="loading">Loading</div>
+                        <div class="loading">Enviando</div>
                         <div class="error-message"></div>
-                        <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
+                        <div class="sent-message">Su mensaje fue enviado correctamente. En breve nos contactaremos. Muchas gracias!</div>
                     </div>
-                    <div class="text-center"><button type="submit">Make an Appointment</button></div>
+                    <div class="text-center"><button type="submit">Enviar</button></div>
                 </form>
 
             </div>
-        </section>
+        </section> -->
         <!-- End Appointment Section -->
 
         <!-- ======= Departments Section ======= -->
@@ -478,9 +498,8 @@
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Doctors</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi
-                        quidem hic quas.</p>
+                    <h2>Equipo Médico</h2>
+                    <p>Te presentamos a algunas de las personas que día a día hacemos Cardio Bosch</p>
                 </div>
 
                 <div class="row">
@@ -564,56 +583,59 @@
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Frequently Asked Questions</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi
-                        quidem hic quas.</p>
+                    <h2>Preguntas Frecuentes</h2>
+                    <p>A continuación te dejamos algunas preguntas y respuestas comunes para evacuar tus dudas.</p>
                 </div>
 
                 <div class="faq-list">
                     <ul>
                         <li data-aos="fade-up">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <i class="bx bx-help-circle icon-help"></i>
+                            <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">¿Cómo solicito un turno? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
                                 <p>
-                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                                    Podés hacerlo a través de nuestro Whatsapp: 11111111 o llamando a nuestro teléfono de línea 4844-2730.
                                 </p>
                             </div>
                         </li>
 
                         <li data-aos="fade-up" data-aos-delay="100">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <i class="bx bx-help-circle icon-help"></i>
+                            <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">¿Qué pasa si no puedo asistir? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                                 <p>
-                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                    cursus turpis massa tincidunt dui.
+                                    Te pedimos que en ese caso, te comuniques con nosotros para cancelar o reprogramar el turno, así podemos ceder el lugar a otro paciente.
                                 </p>
                             </div>
                         </li>
 
                         <li data-aos="fade-up" data-aos-delay="200">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <i class="bx bx-help-circle icon-help"></i>
+                            <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">¿Qué hago si necesito una consulta de urgencia? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                                 <p>
-                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
-                                    molestie at elementum eu facilisis sed odio morbi quis
+                                    Te pedimos que te comuniques por teléfono y, en caso de ser posible, coordinaremos un turno o te indicaremos cómo seguir. <br> Recordá que si tenés síntomas compatibles con COVID-19 te pedimos que no asistas al consultorio
+                                    y te aisles.
                                 </p>
                             </div>
                         </li>
 
                         <li data-aos="fade-up" data-aos-delay="300">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <i class="bx bx-help-circle icon-help"></i>
+                            <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">¿Qué debo llevar a mi consulta? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
                                 <p>
-                                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                                    Para asistir te pedimos que traigas tu documento, tu carnet en caso de tener obra social, y que asistas sin acompañantes para respetar los protocolos vigentes. En caso de requerir asistencia se podrá asistir con un solo acompañante, sin excepción.
                                 </p>
                             </div>
                         </li>
 
                         <li data-aos="fade-up" data-aos-delay="400">
-                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <i class="bx bx-help-circle icon-help"></i>
+                            <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">¿Cuánto tiempo antes debo asistir? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
                                 <p>
-                                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                                    Con estar 5 minutos antes de tu consulta es suficiente. Si es la primera vez que te atendes, 10 minutos antes para poder realizar tu ingreso a nuestro sistema.
                                 </p>
                             </div>
                         </li>
@@ -626,7 +648,7 @@
         <!-- End Frequently Asked Questions Section -->
 
         <!-- ======= Testimonials Section ======= -->
-        <section id="testimonials" class="testimonials">
+        <!--  <section id="testimonials" class="testimonials">
             <div class="container">
 
                 <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -645,10 +667,10 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                        <!-- End testimonial item -->
+                        </div> -->
+        <!-- End testimonial item -->
 
-                        <div class="swiper-slide">
+        <!--        <div class="swiper-slide">
                             <div class="testimonial-wrap">
                                 <div class="testimonial-item">
                                     <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
@@ -661,10 +683,10 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                        <!-- End testimonial item -->
+                        </div> -->
+        <!-- End testimonial item -->
 
-                        <div class="swiper-slide">
+        <!--     <div class="swiper-slide">
                             <div class="testimonial-wrap">
                                 <div class="testimonial-item">
                                     <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
@@ -677,10 +699,10 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                        <!-- End testimonial item -->
+                        </div> -->
+        <!-- End testimonial item -->
 
-                        <div class="swiper-slide">
+        <!--   <div class="swiper-slide">
                             <div class="testimonial-wrap">
                                 <div class="testimonial-item">
                                     <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
@@ -693,10 +715,10 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                        <!-- End testimonial item -->
+                        </div> -->
+        <!-- End testimonial item -->
 
-                        <div class="swiper-slide">
+        <!-- <div class="swiper-slide">
                             <div class="testimonial-wrap">
                                 <div class="testimonial-item">
                                     <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
@@ -709,15 +731,15 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                        <!-- End testimonial item -->
-
+                        </div> -->
+        <!-- End testimonial item -->
+        <!-- 
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
 
             </div>
-        </section>
+        </section> -->
         <!-- End Testimonials Section -->
 
         <!-- ======= Gallery Section ======= -->
@@ -725,9 +747,8 @@
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Gallery</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi
-                        quidem hic quas.</p>
+                    <h2>Nuestro espacio</h2>
+                    <p>Te presentamos algunas imágenes de nuestros consultorios. Contamos con 4 .. espacio de rehabilitación.. recepcióny sala de espera..</p>
                 </div>
             </div>
 
@@ -809,9 +830,8 @@
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Contact</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi
-                        quidem hic quas.</p>
+                    <h2>Contacto</h2>
+                    <p>Estamos ubicados en Villa Bosch:</p>
                 </div>
             </div>
 
@@ -819,62 +839,87 @@
                 <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
                     frameborder="0" allowfullscreen></iframe>
             </div>
+        </section>
 
+        <section id="appointment" class="appointment section-bg">
             <div class="container">
-                <div class="row mt-5">
 
-                    <div class="col-lg-4">
-                        <div class="info">
-                            <div class="address">
-                                <i class="bi bi-geo-alt"></i>
-                                <h4>Location:</h4>
-                                <p>A108 Adam Street, New York, NY 535022</p>
-                            </div>
-
-                            <div class="email">
-                                <i class="bi bi-envelope"></i>
-                                <h4>Email:</h4>
-                                <p>info@example.com</p>
-                            </div>
-
-                            <div class="phone">
-                                <i class="bi bi-phone"></i>
-                                <h4>Call:</h4>
-                                <p>+1 5589 55488 55s</p>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="col-lg-8 mt-5 mt-lg-0">
-
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                            <div class="row">
-                                <div class="col-md-6 form-group">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                                </div>
-                                <div class="col-md-6 form-group mt-3 mt-md-0">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                                </div>
-                            </div>
-                            <div class="form-group mt-3">
-                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                            </div>
-                            <div class="form-group mt-3">
-                                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                            </div>
-                            <div class="my-3">
-                                <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">Your message has been sent. Thank you!</div>
-                            </div>
-                            <div class="text-center"><button type="submit">Send Message</button></div>
-                        </form>
-
-                    </div>
-
+                <div class="section-title">
+                    <h2>Dejanos tu consulta</h2>
+                    <p>Podés comunicarte por cualquiera de nuestros medios de comunicación, o dejarnos tu consulta en el siguiente formulario. Pronto estaremos respondiendo!</p>
                 </div>
+
+                <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
+                    <div class="row">
+                        <div class="col-md-4 form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                            <div class="validate"></div>
+                        </div>
+                        <div class="col-md-4 form-group mt-3 mt-md-0">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email">
+                            <div class="validate"></div>
+                        </div>
+                        <div class="col-md-4 form-group mt-3 mt-md-0">
+                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Celular" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                            <div class="validate"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 form-group mt-3">
+                            <select name="department" id="department" class="form-select">
+                <option value="">Especialidad</option>
+                <option value="Cardiología">Cardiología</option> 
+                <option value="Clínica Médica">Clínica Médica</option>
+                <option value="Diabetología">Diabetología</option>
+                <option value="Endocrinología">Endocrinología</option>
+                <option value="Estudios">Estudios</option>
+                <option value="Gastronterología">Gastronterología</option>
+                <option value="Ginecología">Ginecología</option>
+                <option value="Nutrición">Nutrición</option>
+                <option value="Psicología">Psicología</option>
+                <option value="Psiquiatría">Psiquiatría</option>
+                <option value="Rehabilitación Cardiovascular">Rehabilitación Cardiovascular</option>
+                <option value="Traumatología">Traumatología</option>
+              </select>
+                            <div class="validate"></div>
+                        </div>
+                        <div class="col-md-4 form-group mt-3">
+                            <select name="obrasocial" id="obrasocial" class="form-select">
+                <option value="">Cobertura Médica</option>
+                <option value="IOMA">IOMA</option>
+                <option value="PAMI">PAMI</option>
+                <option value="OSDE">OSDE</option>
+                <option value="ASI">ASI</option>
+                <option value="PARTICULAR">PARTICULAR</option>
+                <option value="OTRA">OTRA</option>
+              </select>
+                            <div class="validate"></div>
+                        </div>
+                        <div class="col-md-4 form-group mt-3">
+                            <select name="donde" id="donde" class="form-select">
+                <option value="">¿Cómo nos encontraste?</option>
+                <option value="Soy paciente del consultorio">Soy paciente del consultorio</option>
+                <option value="Me recomendaron el lugar">Me recomendaron el lugar</option>
+                <option value="Me recomendaron al Doctor/Doctora">Me recomendaron al Doctor/Doctora</option>
+                <option value="Búsqueda en internet">Búsqueda en internet</option>
+                <option value="Por Redes sociales">Por Redes sociales</option>
+                <option value="Mediante mi obra social">Mediante mi obra social</option>
+              </select>
+                            <div class="validate"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-group mt-3">
+                        <textarea class="form-control" name="message" rows="5" placeholder="Su consulta"></textarea>
+                        <div class="validate"></div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="loading">Enviando</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Su mensaje fue enviado correctamente. En breve nos contactaremos. Muchas gracias!</div>
+                    </div>
+                    <div class="text-center"><button type="submit">Enviar</button></div>
+                </form>
 
             </div>
         </section>
